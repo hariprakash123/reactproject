@@ -1,0 +1,332 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+
+body{
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style:none;
+}
+.logo-font-size{
+  font-size:28px !important;
+}
+.image-sliding{
+  height:400px !important;
+}
+.caption-align-center{
+  margin-top:180px;
+}
+.heading-bottom-border{
+  border-bottom:1px solid rgb(224, 221, 221);
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+.card{
+  border:1px solid rgb(211, 202, 202) !important;
+}
+.card-header{
+  background-color:white !important;
+  border:none !important;
+}
+.fa{
+  font-size:24px;
+}
+.borderless-card{
+  border:none !important;
+  background-color:white;
+}
+.go-where-btn{
+  margin-left:35%;
+}
+.footer-height{
+  opacity:.8;
+}
+.social-icons li{
+  display:inline-block;
+}
+.badge-white{
+  background-color:white !important;
+  color:black !important;
+  width:58px;
+  height:58px;
+  border-radius:50px !important;
+  font-size:9px !important;
+  line-height:50px !important;
+  opacity:.6;
+}
+.terms-of-use{
+  font-size:16px;
+}
+@media (max-width:768px){
+ .navbar-nav{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     align-content:center;
+ }
+ .sona-logo{
+  display:flex;
+  justify-content:center;
+ }
+ .android{
+  display:flex;
+  justify-content:center; 
+ }
+ .mac{
+  display:flex;
+  justify-content:center;
+ }
+ .caption{
+     display:flex;
+     justify-content:center;
+ }
+ .company{
+     margin-top:15px;
+ }
+ .blog{
+    text-align:center;
+ }
+}
+.slide{
+  width:100% !important;
+}
+
+.pos-form{
+  background-color:white !important;
+}
+.slid{
+  position:relative;
+}
+.form-border{
+  border:1px solid rgb(233, 222, 222);
+  padding:10px;
+  background-color:white;
+}
+form{
+ margin-top:-90px;
+}
+.width{
+  width:250px;
+  height:40px;
+}
+.checkout{
+  position:relative;
+}
+.right-key{
+  position:absolute;
+  right:5px;
+  top:12px;
+}
+.proceed-to-test{
+  margin-top:-40px;
+}
+.test-block{
+  border:1px solid rgb(139, 132, 132);
+  width:250px;
+  height:110px;
+}
+.align-center{
+  line-height:110px;
+}
+.social-icons{
+  display:inline-block;
+}
+.foot{
+  background-color:black;
+}
+
+
+.footer {
+  background-color: #333333;
+  min-height: 260px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: .8rem;
+  font-weight: 400;
+  padding: 24px 0 16px 0;
+  margin-bottom: 90px;
+  border-bottom: none !important; }
+  .footer .association-wrapper a {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%; }
+    .footer .association-wrapper a img {
+      width: 80px;
+      height: 80px;
+      display: inline-block;
+      border-radius: 50%; }
+      .w-25 {
+    width: 59px !important;
+}
+.c-white-gray {
+    color: #b3b2b2 !important;
+}
+  .footer .links .button-cta {
+    border-radius: 4px;
+    margin: 16px 0;
+    padding: 9px 32px;
+    height: 48px;
+    background: #8FC740;
+    border: 2px solid #0B6624;
+    font-size: 18px;
+    width: 100%;
+    text-transform: capitalize; }
+    .footer .links .button-cta :hover {
+      background-color: #0B6624;
+      border: 2px solid #8FC740; }
+  .footer .links .contact-details {
+    margin-bottom: 12px; }
+    .footer .links .contact-details img {
+      width: 24px;
+      margin-right: 12px; }
+    .footer .links .contact-details span {
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 300; }
+  .footer .links .link-header {
+    font-size: .9rem;
+    padding-left: 12px;
+    height: 20px;
+    border-left: 3px solid #8FC740;
+    margin-bottom: .3rem;
+    color: #ffffff; }
+  .footer .links .list-inline {
+    margin-bottom: .4rem; }
+    .footer .links .list-inline .list-inline-item {
+      margin-top: .6rem;
+      display: block;
+      padding-left: 11px; }
+      .footer .links .list-inline .list-inline-item a {
+        color: #d9d9d9;
+        font-size: 14px;
+        font-weight: 300;
+        position: relative; }
+        .footer .links .list-inline .list-inline-item a:before {
+          position: absolute;
+          top: -9px;
+          left: -29px;
+          font-size: 11px;
+          margin-right: 24px;
+          font-family: 'Linearicons-Free';
+          content: "\e875";
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          transform: rotate(180deg); }
+        .footer .links .list-inline .list-inline-item a:hover {
+          color: white; }
+  .footer .copy-right {
+    background-color: #262626;
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    padding: 10px 0;
+    color: #b3b3b3;
+    border-bottom: 6px solid #8FC740;
+    height: 90px; }
+    .footer .copy-right .credits p {
+      margin-bottom: 8px;
+      line-height: 1.1; }
+    .footer .copy-right .links-inline {
+      max-width: 320px;
+      margin-top: -6px; }
+      .footer .copy-right .links-inline .list-inline .list-inline-item {
+        min-width: 150px;
+        padding: 2px; }
+        .footer .copy-right .links-inline .list-inline .list-inline-item a {
+          font-size: 12px; }
+    .footer .copy-right .associations {
+      max-width: 460px; }
+      .footer .copy-right .associations .label {
+        font-size: 15px;
+        line-height: 1.1;
+        text-align: left;
+        margin-right: 16px;
+        margin-left: 32px; }
+      .footer .copy-right .associations .icon {
+        width: 30px;
+        margin-right: 30px; }
+      .footer .copy-right .associations .logo {
+        width: 60px;
+        margin-left: 16px; }
+  .footer .brand-social {
+    color: #b3b3b3;
+    font-size: .9rem;
+    font-weight: 500; }
+    .footer .brand-social .brand {
+      margin-top: -8px; }
+      .footer .brand-social .brand img {
+        width: 180px; }
+      .footer .brand-social .brand .address {
+        text-align: left;
+        line-height: 1.4;
+        margin-top: .5rem;
+        margin-left: .4rem;
+        font-weight: 400;
+        margin-bottom: 1.2rem; }
+      .footer .brand-social .brand .social a {
+        width: 40px;
+        height: 40px;
+        display: inline-block; }
+      .footer .brand-social .brand .social .social-link {
+        width: 40px;
+        height: 40px;
+        margin: 0 8px 0 0;
+        display: inline-block; }
+        .footer .brand-social .brand .social .social-link:hover {
+          transform: translateY(-4px); }
+        .footer .brand-social .brand .social .social-link img {
+          width: 40px;
+          height: 40px; }
+          .aboutus-sidecbar{
+            background-color:#ffffff !important;
+            min-height:0px !important;
+            margin-bottom:0px !important;
+          }
+          
+   
+/* <------------Responsive Design code Start----------------->*/
+
+@media (max-width: 576px) {
+.footer-quick-link{width: 203px !important;}
+.footer-pt-10{padding-top: 16px !important;}
+.footer .copy-right {display: contents;}
+.footer .copy-right .associations .label{margin-left: 0px;}
+.footer {margin-bottom:0px;font-size: 14px;}
+.footer .copy-right .links-inline .list-inline .list-inline-item {min-width: 153px;}
+.list-inline-item:not(:last-child) {margin-right: 0px;}
+.footer .copy-right .links-inline .list-inline .list-inline-item a {font-size: 14px;}
+.footer .copy-right .links-inline {margin-top: 0px;}
+.footer .copy-right .associations .logo {margin-top: 8px;}
+.w-25{width: 171px !important;margin-top: 18px;}
+.w-53{width: 95px !important;
+margin-top: 10px;}
+}
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 475px) and (max-width: 768px) {
+.footer .copy-right {display: contents;}
+.footer .copy-right .associations .label{margin-left: 0px;}
+.footer {margin-bottom:0px;font-size: 14px;}
+.footer .copy-right .links-inline .list-inline .list-inline-item {min-width: 153px;}
+.list-inline-item:not(:last-child) {margin-right: 0px;}
+.footer .copy-right .links-inline .list-inline .list-inline-item a {font-size: 14px;}
+.footer .copy-right .links-inline {margin-top: 0px;}
+.carousel-item{min-height: 380px;}
+.credits{margin: 25px 0px;}
+.links{margin: 15px 5px;}
+.w-25{width: 171px !important;margin-top: 18px;}
+.w-53{width: 95px !important;margin-top: 10px;}
+}
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 993px) and (max-width: 1024px){
+.footer{margin-bottom: 0;}
+.footer .copy-right{display: contents;}
+}
